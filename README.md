@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Project Showcase App
 A web application using React-Redux for the frontend and Rails API to manage the backend.
 
 # Backend API
