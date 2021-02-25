@@ -1,0 +1,63 @@
+.primary-text {
+  color: #252627;
+}
+
+.secondary-background {
+  background-color: #555555!important;
+}
+
+.tertiary-background {
+  background-color: #555555!important;
+  border-color:  #555555!important;
+}
+
+.quartinary-background {
+  background-color: #E8E8E8!important;
+}
+
+.secondary-text {
+  color: #E7E3DA!important;
+}
+
+.card-img{
+  width: 8rem;
+}
+
+.icon {
+  width: 1.25rem;
+}
+
+.icon-label {
+  vertical-align: -moz-middle-with-baseline;
+  vertical-align: -webkit-baseline-middle;
+}
+
+.link {
+  vertical-align: baseline!important;
+  padding: 0!important;
+}
+
+.modal {
+  display: block!important;
+}
+
+.nav-item{
+  margin: .25rem .5rem .25rem .5rem;
+}
+
+.non-button{
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  cursor: pointer;
+}
+
+button {
+  text-decoration: none!important;
+  color:white!important;
+  background-color: #555555!important;
+}
+
+.sub-form-group{
+  margin-bottom: 0px;
+}
