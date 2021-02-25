@@ -31,7 +31,6 @@ const Project = props => {
                 <button className="btn btn-success tertiary-background"><a href={props.project.githubUrl} className="githubButton" rel="noreferrer" target="_blank">Project Link</a></button>
                 <br/>
                 <br/>
-                <p>Github Push?</p>
                 <EmbedVideo videoUrl={props.project.videoUrl} title={props.project.title}/>
               </div>
               <br/>
