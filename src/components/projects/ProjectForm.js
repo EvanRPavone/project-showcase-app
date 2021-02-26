@@ -45,7 +45,7 @@ class ProjectForm extends React.Component {
                             <input className="form-control" type="text" name="language" value={this.state.language} onChange={this.handleInputChange} placeholder="What coding Language?"/>
                         </div>
                         <div className="form-group">
-                            <label>Github Link: </label>
+                            <label>Project Link: </label>
                             <input className="form-control" type="text" name="githubUrl" value={this.state.githubUrl} onChange={this.handleInputChange} placeholder="Github URL or App Link"/>
                         </div>
                         <div className="form-group">
