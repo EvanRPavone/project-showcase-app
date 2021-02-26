@@ -16,7 +16,7 @@ const ProjectThumbnail = props => {
       <div className="card-body">
         <h4 className="card-title">{props.project.title}</h4>
         <EmbedVideo videoUrl={props.project.videoUrl} title={props.project.title}/>
-        <p>{props.project.description && props.project.description.length > 180 ? props.project.description.slice(0,180) + "..." : props.project.description}</p>
+        <p>{props.project.description}</p>
         <Link className="btn btn-primary tertiary-background" to={`/projects/${props.project.id}`}>See More</Link>
       </div>
     </div>
