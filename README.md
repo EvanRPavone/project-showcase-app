@@ -28,3 +28,6 @@ Frontend
 3. Once all packages are installed run npm start to startup the server
 NOTE: run the backend server first and then run npm start, it will prompt you telling you that there is something already on the localhost:3000, hit y
 4. Navigate around the site and Enjoy!
+
+# Things I want to do
+- Make it into a portfolio site? Add a user to the project in the backend. Only Evan can make a new project and showcase it but other users can comment.
