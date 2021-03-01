@@ -20,7 +20,7 @@ const Project = props => {
             <div className="card-header">
               <div className="row justify-content-between">
                 <div>
-                  <span className="badge badge-primary badge-pill">{props.project.language}</span> 
+                  <span className="badge badge-warning badge-pill">{props.project.language}</span> 
                 </div>
               </div>
             </div>
