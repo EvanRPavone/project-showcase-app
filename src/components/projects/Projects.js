@@ -1,13 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import ProjectThumbnail from './ProjectThumbnail'
+import plusSign from '../../assets/add-icon.png'
 
 const Projects = props => {
   return (
     <>
       <Link to={`/projects/new`}>
-        <h5 className="my-3">
-          <span className="mx-2 primary-text badge">Add Project</span>
+        <h5 className="row justify-content-center">
+          <img className="my-3 icon" src={plusSign} alt="add project"></img>
         </h5>
       </Link>
       <div className="card-columns">
